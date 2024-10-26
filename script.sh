@@ -14,9 +14,9 @@ echo "====================="
 
 # Local manifests
 git clone https://github.com/Trijal08/local_manifests -b TenX_OS-shusky --depth=1 .repo/local_manifests
-echo "============================"
-echo "Local manifest clone success"
-echo "============================"
+echo "================================"
+echo "= Local manifest clone success ="
+echo "================================"
 
 # Sync
 /opt/crave/resync.sh || curl -s https://raw.githubusercontent.com/Trijal08/build_scripts/refs/heads/sync_script/resync.sh | bash
